@@ -1,40 +1,78 @@
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: #F9F9F9;
+}
+
+.left {
+    height: 100vh;
+    box-shadow:
+        0.7px 0.7px 6.6px rgba(0, 0, 0, 0.2),
+        1.7px 1.7px 12.3px rgba(0, 0, 0, 0.138),
+        3.5px 3.5px 17.5px rgba(0, 0, 0, 0.111),
+        7.3px 7.3px 24.2px rgba(0, 0, 0, 0.089),
+        20px 20px 50px rgba(0, 0, 0, 0.062);
 }
 
 .left img {
-    height: 100vh;
+    height: 100%;
 }
 
 .right {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
 .login-form {
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10em;
 }
 
-.login-form-header {
-    font-size: 1.5em;
+.login-form header {
+    font-size: 2.5em;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: -1em;
 }
 
-.login-form-main {
+.login-form header h1 {
+    margin-bottom: 1em;
+    margin-top: -1em;
+    font-size: 1.1em;
+}
+
+.login-form header img {
+    width: 7em;
+    z-index: 1;
+}
+
+.login-form .blob {
+    width: 6em;
+    position: absolute;
+    top: 3.5em;
+    right: 3em;
+    z-index: 0;
+}
+
+.login-form main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4em;
+    gap: 1em;
 }
 
 .group {
@@ -132,7 +170,7 @@ label {
     }
 }
 
-.login-form-main button {
+.login-form main button {
     background-color: #000000;
     color: #FFF;
     border-radius: 1em;
@@ -192,8 +230,8 @@ label {
     transform: scale(0.95);
 }
 
-.login-form-footer {
-    font-size: 0.8em;
+.login-form footer {
+    font-size: 0.7em;
     position: absolute;
     bottom: 5px;
 }
