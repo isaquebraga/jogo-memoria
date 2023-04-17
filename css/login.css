@@ -235,3 +235,16 @@ label {
     position: absolute;
     bottom: 5px;
 }
+
+.login-form footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1680px) {
+    .login-form .blob {
+        top: 7.5em;
+        right: 4.5em;
+        z-index: 0;
+    }
+}
