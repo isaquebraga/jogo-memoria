@@ -248,3 +248,14 @@ label {
         z-index: 0;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100vw;
+        height: 100vh;
+    }
+}
