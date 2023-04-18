@@ -1,9 +1,8 @@
-
-# Jogo da Memória dos Personagens da História Brasileira
+# Jogo da memória dos personagens da História Brasileira
 
 Este jogo da memória foi criado com o objetivo de ajudar estudantes a conhecer melhor alguns dos personagens da história brasileira. É uma forma divertida e educativa de aprender sobre figuras importantes que forma participantes da história do nosso país.
 
-Vale ressaltar que não são pares comuns. Eles são compostos por uma foto do personagem e por uma descrição.
+Vale ressaltar que não são pares comuns. Eles são compostos por uma foto do personagem e uma descrição.
 
 
 ## Autores
@@ -17,13 +16,19 @@ Vale ressaltar que não são pares comuns. Eles são compostos por uma foto do p
 
 O projeto pode ser facilmente acessado através do link que se encontra na descrição do repositório.
 
-    1. Abra o jogo em um navegador web moderno com suporte a JavaScript.
-    2. Insira seu nome e clique no botão "Jogar" para começar.
-    3. Você não terá um tempo limitado para encontrar todos os pares de cartas correspondentes. No entanto, no final do jogo, será mostrado o tempo que você levou para encontrat todos os pares.
-    4. Clique em uma carta para virá-la e revelar a imagem.
-    5. Clique em outra carta para tentar encontrar o par correspondente.
-    6. Se você acertar, as duas cartas permanecerão viradas para cima. Caso contrário, elas serão viradas de volta para baixo.
-    7. Continue jogando até encontrar todos os pares de cartas correspondentes.
+1. Abra o jogo em um navegador web moderno com suporte a JavaScript.
+
+2. Insira seu nome e clique no botão "Jogar" para começar.
+
+3. Você não terá um tempo limitado para encontrar todos os pares de cartas correspondentes. No entanto, no final do jogo, será mostrado o tempo que você levou para encontrar todos os pares.
+
+4. Clique em uma carta para virá-la e revelar a imagem.
+
+5. Clique em outra carta para tentar encontrar o par correspondente.
+
+6. Se você acertar, as duas cartas permanecerão viradas para cima. Caso contrário, elas serão viradas de volta para baixo.
+
+7. Continue jogando até encontrar todos os pares de cartas correspondentes.
 
 
 ## Personagens Importantes da História Brasileira Incluídos
