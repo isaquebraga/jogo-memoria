@@ -88,6 +88,7 @@ header {
         padding: 0;
         justify-content: start;
         background-size: auto 100%;
+        background-image: none;
     }
 
     header {
@@ -98,6 +99,5 @@ header {
     .grid {
         width: 90%;
         grid-template-columns: repeat(4, 1fr);
-        display: none;
     }
 }
