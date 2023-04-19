@@ -45,7 +45,6 @@ const checkEndGame = () => {
                 window.location = "../index.html"
             }
         }, 500)
-        // alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML} segundos.`);
     }
 }
 
