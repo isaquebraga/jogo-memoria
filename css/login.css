@@ -263,6 +263,14 @@ label {
         width: 80%;
     }
 
+    .right footer {
+        width: 90%;
+    }
+
+    .right .login-form footer {
+        text-align: center;
+    }
+
     .login-form .blob {
         display: none;
     }
