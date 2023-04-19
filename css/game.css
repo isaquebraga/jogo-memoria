@@ -80,13 +80,13 @@ header {
 @media screen and (max-width: 767px) {
     main {
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         padding: 0;
         justify-content: start;
     }
 
     header {
-        margin-top: 20px;
+        margin-top: 40px;
         width: 80%;
     }
 
