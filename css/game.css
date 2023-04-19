@@ -80,7 +80,7 @@ header {
 @media screen and (max-width: 767px) {
     main {
         width: 100vw;
-        height: 100vh;
+        height: 100%;
         padding: 0;
         justify-content: start;
     }
