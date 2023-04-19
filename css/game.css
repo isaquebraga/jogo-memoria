@@ -80,11 +80,11 @@ header {
 @media screen and (max-width: 767px) {
     main {
         width: 100vw;
-        height: 10vh;
+        height: 100vh;
         padding: 0;
         justify-content: start;
         background-size: auto 100%;
-        background-image: none;
+        overflow-x: hidden;
     }
 
     header {
