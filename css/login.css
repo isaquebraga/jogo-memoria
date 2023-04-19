@@ -270,6 +270,7 @@ label {
 
     .right .login-form footer {
         text-align: center;
+        font-size: 0.5em;
     }
 
     .login-form .blob {
