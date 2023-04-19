@@ -264,11 +264,15 @@ label {
         flex-direction: column;
     }
 
+    .login-form header {
+        margin-top: 0;
+    }
+
     .right footer {
         width: 90%;
     }
 
-    .right .login-form footer {
+    .login-form footer {
         text-align: center;
         font-size: 0.5em;
     }
