@@ -259,6 +259,10 @@ label {
         height: 100vh;
     }
 
+    .right main {
+        width: 80%;
+    }
+
     .login-form .blob {
         display: none;
     }
