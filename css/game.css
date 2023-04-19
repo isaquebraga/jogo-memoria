@@ -78,21 +78,23 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        height: 100v;
+    }
+
     main {
         width: 100vw;
-        height: 100vh;
         padding: 0;
         justify-content: start;
     }
 
     header {
-        width: calc(90% - 60px);
+        width: calc(90% - 56px);
         margin: 30px auto;
     }
 
     .grid {
         width: 90%;
-        height: 100%;
         grid-template-columns: repeat(4, 1fr);
     }
 }
