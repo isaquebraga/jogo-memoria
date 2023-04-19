@@ -79,11 +79,12 @@ header {
 
 @media screen and (max-width: 767px) {
     body {
-        height: 100v;
+        height: 100vh;
     }
 
     main {
         width: 100vw;
+        height: 100%;
         padding: 0;
         justify-content: start;
     }
