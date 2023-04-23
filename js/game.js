@@ -2,6 +2,8 @@ const grid = document.querySelector(".grid");
 const spanPlayer = document.querySelector(".player");
 const timer = document.querySelector(".timer");
 
+const menu = "MENU" + "\n" + "[ 1 ] - Trocar de usuário." + "\n" + "[ 2 ] - Jogar novamente." + "\n" + "[ 3 ] - Parar." + "\n" + "Digite a opção desejada."
+
 const characters = [
     "anita",
     "anita-descricao",
@@ -41,10 +43,15 @@ const checkEndGame = () => {
         clearInterval(this.loop);
         setTimeout(() => {
             alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML} segundos.`);
-            if (confirm("Deseja jogar novamente?")) {
+            let opcao = prompt(menu);
+            if (opcao == 1) {
                 window.location = "../index.html"
+            } else if (opcao == 2) {
+                window.location = "../pages/game.html"
+            } else {
+                return;
             }
-        }, 500)
+        }, 300)
     }
 }
 
@@ -120,6 +127,11 @@ const startTimer = () => {
         const currentTime = +timer.innerHTML;
         timer.innerHTML = currentTime + 1;
     }, 1000)
+}
+
+function tabClose() {
+    var tab = window.open(window.location, "_top");
+    tab.close();
 }
 
 window.onload = () => {
