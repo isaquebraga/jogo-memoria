@@ -2,7 +2,7 @@ const grid = document.querySelector(".grid");
 const spanPlayer = document.querySelector(".player");
 const timer = document.querySelector(".timer");
 
-const menu = "MENU" + "\n" + "[ 1 ] - Trocar de usuário." + "\n" + "[ 2 ] - Jogar novamente." + "\n" + "[ 3 ] - Parar." + "\n" + "Digite a opção desejada."
+const menu = "MENU" + "\n" + "[ 1 ] - Trocar de usuário." + "\n" + "[ 2 ] - Jogar novamente." + "\n" + "[ 3 ] - Sair." + "\n" + "Digite a opção desejada."
 
 const characters = [
     "anita",
@@ -49,7 +49,7 @@ const checkEndGame = () => {
             } else if (opcao == 2) {
                 window.location = "../pages/game.html"
             } else {
-                return;
+                window.location = "https://google.com";
             }
         }, 300)
     }
